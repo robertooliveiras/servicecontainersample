@@ -1,6 +1,6 @@
 <?php
 //listagem e insersao de clientes
-
+  
 require_once "conexao.php";
 
 $query = "select * from clientes";

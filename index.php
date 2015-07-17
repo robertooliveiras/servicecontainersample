@@ -2,7 +2,7 @@
 //listagem e insersao de clientes
 
 
-require_once 'Cliente.php';
+require_once 'Cliente.php'; 
 
 $objCliente = new Cliente();
 $clientes = $objCliente->listar();

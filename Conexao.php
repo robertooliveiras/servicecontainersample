@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 class Conexao {
 	
@@ -16,6 +16,8 @@ class Conexao {
 	}
 	
 	public function connect() {
-		return new \PDO("mysql:host={$this->host};dbname={$this->database}",$this->user,$this->password);
+		return new \PDO("mysql:host={$this->host};dbname={$this->database}", 
+			$this->user, 
+			$this->password);
 	}
 }
