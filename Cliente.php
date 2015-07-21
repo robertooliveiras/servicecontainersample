@@ -13,6 +13,6 @@ class Cliente {
 		$stmt = $this->db->prepare($query);
 		$stmt->execute();
 		
-		return $stmt->fechAll(\PDO::FETCH_ASSOC);
+		return $stmt->fetchAll(\PDO::FETCH_ASSOC);
 	}
 }

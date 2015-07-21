@@ -1,0 +1,1 @@
+INSERT INTO `diservice`.`clientes` (`id`, `nome`, `email`) VALUES ('1', 'Cliente 1', 'cliente1@c.email'), ('2', 'Cliente 2', 'cliente2@c.email'), ('3', 'Cliente 3', 'cliente3@c.email'), ('4', 'Cliente 4', 'cliente4@c.email'), ('5', 'Cliente 5', 'cliente5@c.email')
